@@ -1,0 +1,480 @@
+@font-face {
+    font-family: "Authentic";
+    src: url(https://cdn.glitch.com/12a4bf39-d166-4818-9e7b-7ae3202b4923%2FAUTHENTICSans-Condensed-130.woff2?v=1567698064940);
+}
+
+body {
+    font-family: "Authentic";
+    font-optical-sizing: auto;
+    font-weight: 450;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+}
+
+.coverall {
+    display: flex;
+}
+
+.coverall img {
+    width: 20vw;
+    height: auto;
+    margin-top: -.3vw;
+    margin-bottom: -.3vw;
+}
+
+.coverall p {
+    font-family: 'LT Cushion', sans-serif;
+    font-weight: 300;
+    line-height: 1.4;
+    font-size: 1vw;
+    z-index: 99;
+    text-align: left;
+    letter-spacing: .01vw;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 12.5%;
+    margin-top: 0.48vw;
+}
+
+.titlePara {
+    float: right;
+    justify-content: center;
+    width: 37.5vw;
+    margin-left: 15.74%;
+    margin-top: -0%;
+}
+
+.cover {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #e6e7e2;
+    position: relative;
+    animation: body 1s linear;
+}
+
+.grid-item2 {
+    width: 0vw;
+    height: 0vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.comparisonImage2 img {
+    width: 21.76vw;
+    height: 5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: -2%;
+}
+
+.item-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 23vw;
+    height: 100vh;
+    position: relative;
+    left: 120vw;
+}
+
+.grid-item {
+    width: 0vw;
+    height: 0vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.top,
+.middle,
+.bottom {
+    background-color: #94ec2900;
+    width: 21.76vw;
+    height: 5vw;
+    margin-top: -.3vw;
+    margin-bottom: -.3vw;
+    overflow: hidden;
+}
+
+.text {
+    background-color: #94ec2900;
+    width: 37.5vw;
+    height: 100vh;
+    margin-top: -.3vw;
+    margin-bottom: -.3vw;
+    overflow: hidden;
+}
+
+.grid-container2 {
+    background-color: rgba(190, 95, 23, 0);
+    z-index: 9;
+    height: 100%;
+    position: fixed;
+    left: 50%;
+    overflow: hidden;
+}
+
+.grid-container2 .grid-item {
+    position: relative;
+    left: -50vw;
+}
+
+.comparisonImage {
+    width: 100%;
+    height: 100%;
+}
+
+.comparisonImage img {
+    width: 100%;
+    position: absolute;
+    /* Set position to absolute */
+    top: 50%;
+    /* Move top edge to 50% of the parent */
+    left: 50%;
+    /* Move left edge to 50% of the parent */
+    transform: translate(-50%, -50%);
+    opacity: 100%;
+
+}
+
+.grid7 .grid-container {
+    position: fixed;
+}
+
+.grid7 .grid-item {
+    animation: translate7 3s linear infinite;
+    animation-play-state: paused;
+    animation-delay: calc(var(--scroll) * -1s);
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+@keyframes translate7 {
+    to {
+        transform: translate(-2886vw, 0vw);
+    }
+
+    /* -3396.739vw */
+}
+
+.grid7 {
+    min-height: 3464.674vw;
+}
+
+.coverall {
+    position: fixed;
+}
+
+.comparisonImage2 {
+    animation: translatetitle 1s linear infinite;
+    animation-play-state: paused;
+    animation-delay: calc(var(--scroll) * -1s);
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+@keyframes translatetitle {
+    to {
+        transform: translate(-962vw, 0vw);
+    }
+}
+
+.title {
+    min-height: 200vh;
+}
+
+.sticky {
+    position: sticky;
+    left: 12.5%;
+}
+
+/* Art */
+
+.footbridge {
+    width: 22vw;
+}
+
+.cafe {
+    width: 26vw;
+}
+
+.horse {
+    width: 22vw;
+}
+
+.fruit {
+    width: 23vw;
+}
+
+.koi {
+    width: 18vw;
+}
+
+.couple {
+    width: 24vw;
+}
+
+.americangothic {
+    width: 22vw;
+}
+
+.banksy {
+    width: 28vw;
+}
+
+.bathingman {
+    width: 22vw;
+}
+
+.puppy {
+    width: 25vw;
+}
+
+.head {
+    width: 22vw;
+}
+
+.twowoman {
+    width: 30vw;
+}
+
+.tebow {
+    width: 23vw;
+}
+
+.sailboat {
+    width: 29vw;
+}
+
+.vangoghmother {
+    width: 23vw;
+}
+
+.tightrope {
+    width: 35vw;
+}
+
+.voldemort {
+    width: 22vw;
+}
+
+.wave {
+    width: 27vw;
+}
+
+.woman {
+    width: 23vw;
+}
+
+.hyacinth {
+    width: 17vw;
+}
+
+
+
+/* Card */
+
+.card {
+    font-family: 'LT Cushion', sans-serif;
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%);
+    top: 82.5%;
+    font-weight: 300;
+    line-height: .3;
+    font-size: 1vw;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    text-align: center;
+    letter-spacing: .02vw;
+    background-color: #e6e7e2b8;
+    z-index: 999;
+    padding: .5vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+
+.scrollToDiscover {
+    font-family: 'LT Cushion', sans-serif;
+    position: fixed;
+    top: 92.5%;
+    font-weight: 300;
+    line-height: .3;
+    font-size: 1vw;
+    opacity: 1;
+    transition: opacity 0.5s ease;
+    color: #a6a295;
+    font-size: 1vw;
+    letter-spacing: .05vw;
+    text-align: left;
+    width: 100%;
+}
+
+.scrollToDiscover p {
+    margin-left: 12.5%
+}
+
+;
+
+.italic {
+    position: relative;
+    left: -.1vw;
+}
+
+.visible {
+    opacity: 1;
+}
+
+.invisible {
+    opacity: 0;
+}
+
+/* Progress Bar */
+.header {
+    position: fixed;
+    top: 0;
+    z-index: 1000000;
+    width: 100%;
+}
+
+/* The progress container (grey background) */
+.progress-container {
+    width: 100%;
+    z-index: 999999;
+}
+
+/* The progress bar (scroll indicator) */
+.progress-bar {
+    height: .5%;
+    background: rgb(166, 162, 149);
+    width: 0%;
+    position: fixed;
+    top: 99.5%;
+    z-index: 999999;
+}
+
+/* Credit */
+.credit {
+    background-color: #292622;
+    height: 100vh;
+    width: 50vw;
+    z-index: 100;
+}
+
+.creditimg img {
+    width: 16vw;
+}
+
+
+.logo-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(auto, auto);
+    column-gap: 5vw;
+    row-gap: 2vw;
+    width: auto;
+}
+
+/* Style for grid items */
+.logo-item {
+    display: flex;
+    background-color: #f0f0f000;
+}
+
+/* Style for images */
+.logo-item img {
+    width: 6vw;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+.credit p {
+    font-family: 'LT Cushion', sans-serif;
+    font-weight: 300;
+    line-height: 1.4;
+    font-size: 1vw;
+    z-index: 99;
+    letter-spacing: .02vw;
+    color: #e6e7e2;
+}
+
+.textup {
+    margin-top: -1vw;
+}
+
+.flexcredit {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5vw;
+}
+
+.bottom2 img {
+    height: 100vh;
+    width: auto;
+    z-index: -1;
+}
+
+.margin img {
+    margin-left: 4vw;
+}
+
+@media screen and (max-width: 600px) {
+    .item-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 23vw;
+        height: 100vh;
+        position: relative;
+        left: 120vw;
+    }
+
+    .grid-container2 .grid-item {
+        position: relative;
+        top: -50vw;
+    }
+
+    .grid-container2 {
+        background-color: rgba(190, 95, 23, 0.757);
+        z-index: 9;
+        width: 100%;
+        position: fixed;
+        top: 50%;
+        overflow: hidden;
+    }
+
+    .grid7 .grid-item {
+        animation: translate8 3s linear infinite;
+        animation-play-state: paused;
+        animation-delay: calc(var(--scroll) * -1s);
+        animation-iteration-count: 1;
+        animation-fill-mode: both;
+    }
+
+    @keyframes translate8 {
+        to {
+            transform: translate(0vw, -2886vw);
+        }
+
+        /* -3396.739vw */
+    }
+
+    .grid7 {
+        min-width: 3464.674vw;
+    }
+}
