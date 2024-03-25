@@ -13,7 +13,27 @@
     <link href="https://fonts.cdnfonts.com/css/lt-cushion" rel="stylesheet">
 
     <script src="https://code.jquery.com/jquery-1.7.2.min.js"></script>
-    <link rel="icon" href="icon.gif" type="image/gif" />
+    <link id="favicon" rel="shortcut icon" href="favicon2.png" type="image/png">
+    <script>
+        var favicon_images = [
+            'favicon2.ico',
+            'favicon1.ico',
+        ];
+        var image_counter = 0;
+
+        setInterval(function () {
+            var link = document.querySelector("link[rel='icon']") || document.createElement('link');
+            link.rel = 'icon';
+            link.type = 'image/x-icon';
+            link.href = favicon_images[image_counter];
+
+            console.log('Setting favicon:', link.href);
+
+            document.head.appendChild(link);
+
+            image_counter = (image_counter + 1) % favicon_images.length;
+        }, 100);
+    </script>
 </head>
 
 <body>
