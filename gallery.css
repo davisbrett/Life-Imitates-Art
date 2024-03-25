@@ -433,48 +433,84 @@ body {
 }
 
 @media screen and (max-width: 600px) {
-    .item-container {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 23vw;
-        height: 100vh;
-        position: relative;
-        left: 120vw;
+    .footbridge {
+        width: 44vw;
     }
 
-    .grid-container2 .grid-item {
-        position: relative;
-        top: -50vw;
+    .cafe {
+        width: 52vw;
     }
 
-    .grid-container2 {
-        background-color: rgba(190, 95, 23, 0.757);
-        z-index: 9;
-        width: 100%;
-        position: fixed;
-        top: 50%;
-        overflow: hidden;
+    .horse {
+        width: 44vw;
     }
 
-    .grid7 .grid-item {
-        animation: translate8 3s linear infinite;
-        animation-play-state: paused;
-        animation-delay: calc(var(--scroll) * -1s);
-        animation-iteration-count: 1;
-        animation-fill-mode: both;
+    .fruit {
+        width: 46vw;
     }
 
-    @keyframes translate8 {
-        to {
-            transform: translate(0vw, -2886vw);
-        }
-
-        /* -3396.739vw */
+    .koi {
+        width: 36vw;
     }
 
-    .grid7 {
-        min-width: 3464.674vw;
+    .couple {
+        width: 48vw;
     }
+
+    .americangothic {
+        width: 44vw;
+    }
+
+    .banksy {
+        width: 56vw;
+    }
+
+    .bathingman {
+        width: 44vw;
+    }
+
+    .puppy {
+        width: 50vw;
+    }
+
+    .head {
+        width: 44vw;
+    }
+
+    .twowoman {
+        width: 60vw;
+    }
+
+    .tebow {
+        width: 46vw;
+    }
+
+    .sailboat {
+        width: 58vw;
+    }
+
+    .vangoghmother {
+        width: 46vw;
+    }
+
+    .tightrope {
+        width: 70vw;
+    }
+
+    .voldemort {
+        width: 44vw;
+    }
+
+    .wave {
+        width: 52vw;
+    }
+
+    .woman {
+        width: 46vw;
+    }
+
+    .hyacinth {
+        width: 34vw;
+    }
+
 }
